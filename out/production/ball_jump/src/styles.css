@@ -1,0 +1,177 @@
+.root{
+    -fx-background: #000;
+}
+#modes{
+    -fx-border-width:1;
+    -fx-border-color:white;
+    -fx-background-color: #32DBF0;
+    -fx-text-fill: white;
+    -fx-shape: "M 250 250 L 600 250 L 579 298 L 600 350 L 250 350 L 270 298 L 250 250 Z";
+}
+#modes:hover{
+    -fx-border-width:3;
+    -fx-border-color:white;
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),
+        linear-gradient(to bottom, derive(-fx-color,-60%) 0%, derive(-fx-color,-35%) 50%, derive(-fx-color,-30%) 98%, derive(-fx-color,-50%) 100%),
+        linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);
+    -fx-background-insets: 0 0 -1 0, 0, 1, 1;
+}
+#button3{
+    -fx-border-width:1;
+    -fx-border-color:white;
+    -fx-background-color: #dede00;
+    -fx-text-fill: white;
+    -fx-shape: "M 250 250 L 600 250 L 579 298 L 600 350 L 250 350 L 270 298 L 250 250 Z";
+}
+#button3:hover{
+    -fx-border-width:3;
+    -fx-border-color:white;
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),
+        linear-gradient(to bottom, derive(-fx-color,-60%) 0%, derive(-fx-color,-35%) 50%, derive(-fx-color,-30%) 98%, derive(-fx-color,-50%) 100%),
+        linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);
+    -fx-background-insets: 0 0 -1 0, 0, 1, 1;
+}
+#button4{
+    -fx-border-width:1;
+    -fx-border-color:white;
+    -fx-background-color: #900DFF;
+    -fx-text-fill: white;
+    -fx-shape: "M 250 250 L 600 250 L 579 298 L 600 350 L 250 350 L 270 298 L 250 250 Z";
+}
+#button4:hover{
+    -fx-border-width:3;
+    -fx-border-color:white;
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),
+        linear-gradient(to bottom, derive(-fx-color,-60%) 0%, derive(-fx-color,-35%) 50%, derive(-fx-color,-30%) 98%, derive(-fx-color,-50%) 100%),
+        linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);
+    -fx-background-insets: 0 0 -1 0, 0, 1, 1;
+}
+#play{
+    -fx-background-color: #808080;
+    -fx-shape:'M 400 300 A 50 50 0 1 1 550 300 A 50 50 0 1 1 400 300';
+}
+#play:hover{
+    -fx-border-width:5;
+    -fx-border-color:white;
+}
+#heading{
+    -fx-font: 30px Tahoma;
+    -fx-fill:white;
+    -fx-stroke-width: 1;
+}
+#helpheading{
+    -fx-fill:blue;
+}
+#colorswitch{
+    -fx-fill:red;
+}
+#helpcontent{
+    -fx-font: 22px Tahoma;
+    -fx-fill:white;
+    -fx-stroke-width: 1;
+}
+#spaceswitch{
+    -fx-fill:red;
+}
+#spaceswitchcontent{
+    -fx-font: 22px Tahoma;
+    -fx-fill:white;
+    -fx-stroke-width: 1;
+}
+#scoreheading{
+    -fx-font: 40px Tahoma;
+    -fx-fill:white;
+    -fx-stroke-width: 1;
+}
+#scorestars{
+    -fx-font: 40px Tahoma;
+    -fx-fill:white;
+    -fx-stroke-width: 1;
+}
+#button5{
+    -fx-border-width:1;
+    -fx-border-color:white;
+    -fx-background-color: #FF0181;
+    -fx-text-fill: white;
+    -fx-shape: "M 250 250 L 600 250 L 579 298 L 600 350 L 250 350 L 270 298 L 250 250 Z";
+}
+#button5:hover{
+    -fx-border-width:3;
+    -fx-border-color:white;
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),
+        linear-gradient(to bottom, derive(-fx-color,-60%) 0%, derive(-fx-color,-35%) 50%, derive(-fx-color,-30%) 98%, derive(-fx-color,-50%) 100%),
+        linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);
+    -fx-background-insets: 0 0 -1 0, 0, 1, 1;
+}
+#button6{
+    -fx-border-width:1;
+    -fx-border-color:white;
+    -fx-background-color: green;
+    -fx-text-fill: white;
+    -fx-shape: "M 250 250 L 600 250 L 579 298 L 600 350 L 250 350 L 270 298 L 250 250 Z";
+}
+#button6:hover{
+    -fx-border-width:3;
+    -fx-border-color:white;
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),
+        linear-gradient(to bottom, derive(-fx-color,-60%) 0%, derive(-fx-color,-35%) 50%, derive(-fx-color,-30%) 98%, derive(-fx-color,-50%) 100%),
+        linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);
+    -fx-background-insets: 0 0 -1 0, 0, 1, 1;
+}
+#button7{
+    -fx-background-color: #ff3334;
+    -fx-shape:'M 400 300 A 50 50 0 1 1 550 300 A 50 50 0 1 1 400 300';
+}
+#button7:hover{
+    -fx-border-width:5;
+    -fx-border-color:white;
+}
+#sound{
+    -fx-shape:'M 400 300 A 50 50 0 1 1 550 300 A 50 50 0 1 1 400 300';
+}
+#sound:hover{
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),
+        linear-gradient(to bottom, derive(-fx-color,-60%) 0%, derive(-fx-color,-35%) 50%, derive(-fx-color,-30%) 98%, derive(-fx-color,-50%) 100%),
+        linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);
+    -fx-background-insets: 0 0 -1 0, 0, 1, 1;
+}
+#music{
+    -fx-shape:'M 400 300 A 50 50 0 1 1 550 300 A 50 50 0 1 1 400 300';
+}
+#music:hover{
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),
+        linear-gradient(to bottom, derive(-fx-color,-60%) 0%, derive(-fx-color,-35%) 50%, derive(-fx-color,-30%) 98%, derive(-fx-color,-50%) 100%),
+        linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);
+    -fx-background-insets: 0 0 -1 0, 0, 1, 1;
+}
+#back{
+    -fx-border-width:1;
+    -fx-border-color:white;
+    -fx-text-fill:white;
+    -fx-background-color:red;
+    -fx-shape:"M 250 250 L 600 250 L 579 298 L 600 350 L 250 350 L 270 298 L 250 250 Z";
+}
+#back:hover{
+    -fx-border-width:3;
+    -fx-border-color:white;
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),
+        linear-gradient(to bottom, derive(-fx-color,-60%) 0%, derive(-fx-color,-35%) 50%, derive(-fx-color,-30%) 98%, derive(-fx-color,-50%) 100%),
+        linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);
+    -fx-background-insets: 0 0 -1 0, 0, 1, 1;
+}
